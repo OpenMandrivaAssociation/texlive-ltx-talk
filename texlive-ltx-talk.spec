@@ -1,9 +1,9 @@
 %global tl_name ltx-talk
-%global tl_revision 79566
+%global tl_revision 79821
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	0.5.1
+Version:	0.5.2
 Release:	%{tl_revision}.1
 Summary:	A class for typesetting presentations
 Group:		Publishing
