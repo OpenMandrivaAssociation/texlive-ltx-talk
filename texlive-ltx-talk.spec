@@ -1,9 +1,9 @@
 %global tl_name ltx-talk
-%global tl_revision 79821
+%global tl_revision 79893
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	0.5.2
+Version:	0.5.3
 Release:	%{tl_revision}.1
 Summary:	A class for typesetting presentations
 Group:		Publishing
@@ -24,7 +24,7 @@ requires LaTeX 2025-11-01 or later. The ltx-talk class is focused on
 producing (on-screen) presentations, along with support material such as
 handouts and speaker notes. Content is created in a frame environment,
 each of which can be divided up into a number of slides (actual output
-pages). A simple 'overlay' notation is used to specify which material
+pages). A simple overlay notation is used to specify which material
 appears on each slide within a frame. The class supports a range of
 environments to enable complex slide relationships to be constructed.
 The appearance of slides is controlled by a template system. Many of the
